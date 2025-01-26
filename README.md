@@ -28,3 +28,23 @@ This project is a simple **To-Do List REST API** built with Node.js, Express, an
    ```bash
    git clone <repository-url>
    cd todo-list-api
+
+
+
+ ## Set up the database
+
+2. Create a .env file in the root directory and configure the following:
+   ```bash
+   DB_HOST=<your_host>
+   DB_PORT=<your_database_port>
+   DB_USER=<your_user>
+   DB_PASSWORD=<your-password>
+   DB_NAME=todo_db
+
+
+3. Start the server:
+ ```bash
+   nodemon server.js
+
+
+
